@@ -1,8 +1,5 @@
 import './App.css';
-import Customers from './components/Customers';
-import MainPage from './components/MainPage';
-import Navbar from './components/Navbar';
-import Product from './components/Product';
+import { Navbar, MainPage, Customers, Product, CustomersInsights, Features } from './components';
 
 function App() {
     return (
@@ -11,6 +8,8 @@ function App() {
             <MainPage />
             <Customers />
             <Product />
+            <CustomersInsights />
+            <Features />
         </div>
     );
 }

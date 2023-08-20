@@ -1,0 +1,10 @@
+export { default as Navbar } from './Navbar';
+export { default as Product } from './Product';
+export { default as MainPage } from './MainPage';
+export { default as Footer } from './Footer';
+export { default as Features } from './Features';
+export { default as Customization } from './Customization';
+export { default as CustomersInsights } from './CustomersInsights';
+export { default as Customers } from './Customers';
+export { default as Card } from './Card';
+export { default as Additional } from './Addtional';
