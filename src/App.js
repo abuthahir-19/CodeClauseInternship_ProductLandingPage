@@ -1,5 +1,13 @@
 import './App.css';
-import { Navbar, MainPage, Customers, Product, CustomersInsights, Features } from './components';
+import { Navbar, 
+        MainPage, 
+        Customers,
+        Product, 
+        CustomersInsights, 
+        Features, 
+        Personalization, 
+        Customization
+} from './components';
 
 function App() {
     return (
@@ -10,6 +18,8 @@ function App() {
             <Product />
             <CustomersInsights />
             <Features />
+            <Personalization />
+            <Customization />
         </div>
     );
 }
