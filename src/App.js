@@ -6,7 +6,8 @@ import { Navbar,
         CustomersInsights, 
         Features, 
         Personalization, 
-        Customization
+        Customization,
+        Additional
 } from './components';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Features />
             <Personalization />
             <Customization />
+            <Additional />
         </div>
     );
 }
