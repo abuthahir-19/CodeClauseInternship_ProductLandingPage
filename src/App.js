@@ -7,7 +7,8 @@ import { Navbar,
         Features, 
         Personalization, 
         Customization,
-        Additional
+        Additional,
+        Footer
 } from './components';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
             <Personalization />
             <Customization />
             <Additional />
+            <Footer />
         </div>
     );
 }
