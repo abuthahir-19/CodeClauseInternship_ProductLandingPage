@@ -39,27 +39,27 @@ const Footer = () => {
                         <div className='w-fit m-0'>
                             <h1 className='text-lg text-slate-800 font-semibold p-2'>Explore</h1>
                             <div className='flex flex-col gap-1 p-2 text-slate-500 font-medium justify-start'>
-                                <p>Docs</p>
-                                <p>Integrations</p>
-                                <p>Slack</p>
-                                <p>Pricing</p>
-                                <p>Changelog</p>
-                                <p>Blog</p>
+                                <p className='cursor-pointer'>Docs</p>
+                                <p className='cursor-pointer'>Integrations</p>
+                                <p className='cursor-pointer'>Slack</p>
+                                <p className='cursor-pointer'>Pricing</p>
+                                <p className='cursor-pointer'>Changelog</p>
+                                <p className='cursor-pointer'>Blog</p>
                             </div>
                         </div>
                         <div className='w-fit m-0'>
                             <h1 className='text-lg text-slate-800 font-semibold p-2'>Company</h1>
                             <div className='flex flex-col gap-1 p-2 text-slate-500 font-medium justify-start'>
-                                <p>Manifesto</p>
-                                <p>Press Kit</p>
-                                <p>Status</p>
+                                <p className='cursor-pointer'>Manifesto</p>
+                                <p className='cursor-pointer'>Press Kit</p>
+                                <p className='cursor-pointer'>Status</p>
                             </div>
                         </div>
                         <div className='w-fit m-0'>
                             <h1 className='text-lg text-slate-800 font-semibold p-2'>Legal</h1>
                             <div className='flex flex-col gap-1 p-2 text-slate-500 font-medium justify-start'>
-                                <p>Terms of Service</p>
-                                <p>Privacy Policy</p>
+                                <p className='cursor-pointer'>Terms of Service</p>
+                                <p className='cursor-pointer'>Privacy Policy</p>
                             </div>
                         </div>
                     </div>
