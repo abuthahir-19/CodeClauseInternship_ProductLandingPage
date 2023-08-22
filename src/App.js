@@ -10,20 +10,22 @@ import { Navbar,
         Additional,
         Footer
 } from './components';
+import ResponsiveNav from './components/ResponsiveNav';
 
 function App() {
     return (
-        <div className="App">
+        <div className="App relative">
             <Navbar />
+            <ResponsiveNav />
             <MainPage />
             <Customers />
             <Product />
-            <CustomersInsights />
+            {/*<CustomersInsights />
             <Features />
             <Personalization />
             <Customization />
             <Additional />
-            <Footer />
+            <Footer /> */}
         </div>
     );
 }

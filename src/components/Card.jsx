@@ -1,6 +1,6 @@
 const Card = ({ logo, title, desc}) => {
     return (
-        <div className="w-1/3 p-3">
+        <div className="w-1/3 p-3 ultra-xs:w-full xxs:w-full xs:w-full sm:w-1/2">
             <div className="flex justify-center items-center">
                 <img src={logo} alt="CardIcon" />
             </div>

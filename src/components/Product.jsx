@@ -45,21 +45,21 @@ const Product = () => {
 
     return (
         <div className="my-10">
-            <div className="mx-8">
-                <div className="w-3/4 mx-auto text-center">
+            <div className="mx-8 ultra-xs:mx-3">
+                <div className="w-3/4 mx-auto text-center ultra-xs:w-full xxs:w-full xs:w-full sm:w-full">
                     <h1 className="text-slate-800 text-4xl font-bold text-center">Sync your customers</h1>
-                    <p className="w-1/2 text-center mx-auto mt-4">Turn Nexus into a CRM for your product team by bringing
+                    <p className="w-1/2 text-center mx-auto mt-4 ultra-xs:w-3/4">Turn Nexus into a CRM for your product team by bringing
                         your customers from HubSpot, Intercom, and Slack.
                     </p>
                 </div>
 
                 <div className=" bg-orange-50 rounded-md pt-8 mt-12 relative flex justify-center items-center text-center">
                     <img src={product} alt="ProductScreen" />
-                    <img src={liviaCarder} alt="LiviaCarder" className='absolute -bottom-10 -left-7' />
-                    <img src={ airbnb } alt="Airbnb" className='absolute bottom-24 -right-3'/>
+                    <img src={liviaCarder} alt="LiviaCarder" className='absolute -bottom-10 -left-7 w-[40%] h-[50%] ultra-xs:-bottom-3 xxs:-bottom-3 xs:-bottom-3' />
+                    <img src={ airbnb } alt="Airbnb" className='absolute bottom-24 -right-3 w-[40%] h-[50%] ultra-xs:bottom-5 xxs:bottom-5 xs:bottom-5'/>
                 </div>
 
-                <div className='flex justify-evenly items-center flex-wrap p-3 mt-8'>
+                <div className='flex justify-evenly items-center flex-wrap p-3 mt-8 ultra-xs:p-0'>
                     { productItems &&
                         productItems.map (product => (
                             <Card key={product.title} logo={product.logo} title={product.title} desc={product.desc} />
