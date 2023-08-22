@@ -1,6 +1,5 @@
 import Logo from '../icons/logo.svg';
 import { BiSolidChevronDown } from 'react-icons/bi';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const link = 'https://google.com';
