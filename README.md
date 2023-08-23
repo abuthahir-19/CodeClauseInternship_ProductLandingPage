@@ -1,5 +1,5 @@
 # Project Design Template (Inferred from figma free design templates)
-![Design preview for cart items design](./design/Landing-Page-1.png)
+![Design preview for cart items design](./design/LandingPage.png)
 
 
 # CodeClause Internship project
