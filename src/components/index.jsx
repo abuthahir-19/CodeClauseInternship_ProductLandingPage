@@ -7,6 +7,5 @@ export { default as Customization } from './Customization';
 export { default as CustomersInsights } from './CustomersInsights';
 export { default as Customers } from './Customers';
 export { default as Card } from './Card';
-export { default as Additional } from './Addtional';
 export { default as Personalization } from './Personalization';
 export { default as ResponsiveNav } from './ResponsiveNav';

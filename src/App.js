@@ -7,7 +7,6 @@ import { Navbar,
         Features, 
         Personalization, 
         Customization,
-        Additional,
         Footer,
         ResponsiveNav
 } from './components';
@@ -22,10 +21,9 @@ function App() {
             <Product />
             <CustomersInsights />
             <Features />
-            {/*<Personalization />
+            <Personalization />
             <Customization />
-            <Additional />
-            <Footer /> */}
+            <Footer />
         </div>
     );
 }

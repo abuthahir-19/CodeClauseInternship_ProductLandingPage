@@ -47,7 +47,7 @@ const Product = () => {
         <div className="my-10">
             <div className="mx-8 ultra-xs:mx-3">
                 <div className="w-3/4 mx-auto text-center ultra-xs:w-full xxs:w-full xs:w-full sm:w-full">
-                    <h1 className="text-slate-800 text-4xl font-bold text-center">Sync your customers</h1>
+                    <h1 className="text-slate-800 text-4xl font-bold text-center ultra-xs:text-3xl">Sync your customers</h1>
                     <p className="w-1/2 text-center mx-auto mt-4 ultra-xs:w-3/4">Turn Nexus into a CRM for your product team by bringing
                         your customers from HubSpot, Intercom, and Slack.
                     </p>

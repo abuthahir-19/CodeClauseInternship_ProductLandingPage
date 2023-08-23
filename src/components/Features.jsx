@@ -6,7 +6,7 @@ import customPropScreen from '../images/custom-prop-screen.png';
 const Features = () => {
     return (
         <div className="w-full relative mt-16 mb-24">
-            <div className="relative top-0 w-1/3 text-center mx-auto ultra-xs:w-full xxs:w-full xs:w-full sm:w-3/4 md:w-1/2">
+            <div className="relative top-0 w-1/3 text-center mx-auto ultra-xs:w-full ultra-xs:px-5 xxs:w-full xs:w-full sm:w-3/4 md:w-1/2">
                 <h1 className="text-slate-800 text-4xl font-bold ultra-xs:text-3xl">Write and organize your PRDs</h1>
                 <p className="font-normal text-slate-700 mt-8 xs:w-4/5 xs:mx-auto xs:text-center sm:w-3/4 sm:mx-auto sm:text-center">All of your customer context, all in your
                     PRDs. No split screen, no tool switching; it's all here.
