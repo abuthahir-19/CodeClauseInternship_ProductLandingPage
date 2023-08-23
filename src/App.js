@@ -8,9 +8,9 @@ import { Navbar,
         Personalization, 
         Customization,
         Additional,
-        Footer
+        Footer,
+        ResponsiveNav
 } from './components';
-import ResponsiveNav from './components/ResponsiveNav';
 
 function App() {
     return (
@@ -20,9 +20,9 @@ function App() {
             <MainPage />
             <Customers />
             <Product />
-            {/*<CustomersInsights />
+            <CustomersInsights />
             <Features />
-            <Personalization />
+            {/*<Personalization />
             <Customization />
             <Additional />
             <Footer /> */}

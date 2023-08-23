@@ -55,8 +55,8 @@ const Product = () => {
 
                 <div className=" bg-orange-50 rounded-md pt-8 mt-12 relative flex justify-center items-center text-center">
                     <img src={product} alt="ProductScreen" />
-                    <img src={liviaCarder} alt="LiviaCarder" className='absolute -bottom-10 -left-7 w-[40%] h-[50%] ultra-xs:-bottom-3 xxs:-bottom-3 xs:-bottom-3' />
-                    <img src={ airbnb } alt="Airbnb" className='absolute bottom-24 -right-3 w-[40%] h-[50%] ultra-xs:bottom-5 xxs:bottom-5 xs:bottom-5'/>
+                    <img src={liviaCarder} alt="LiviaCarder" className='absolute -bottom-10 -left-7 w-auto h-[45%] ultra-xs:-bottom-3 xxs:-bottom-3 xs:-bottom-3' />
+                    <img src={ airbnb } alt="Airbnb" className='absolute bottom-24 -right-3 w-auto h-[45%] ultra-xs:bottom-5 xxs:bottom-5 xs:bottom-5'/>
                 </div>
 
                 <div className='flex justify-evenly items-center flex-wrap p-3 mt-8 ultra-xs:p-0'>
