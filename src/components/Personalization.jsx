@@ -6,7 +6,7 @@ import CloseLoop from '../images/close-the-loop-short.png';
 
 const Personalization = () => {
     return (
-        <div className="bg-pink-100 text-center pt-14 pb-5 my-16 w-full">
+        <div className="bg-pink-50 text-center pt-14 pb-5 my-16 w-full">
             <div className="w-[42%] mx-auto p-5 ultra-xs:w-full xxs:w-full xs:w-full sm:w-full md:w-full">
                 <h1 className="text-4xl font-bold text-slate-800 ultra-xs:text-3xl xxs:text-3xl">Close the loop with customers at each release</h1>
                 <p className="w-7/12 mx-auto mt-7 font-normal text-slate-600 ultra-xs:w-full xxs:w-full">Just shipped a cool feature? Use Nexus to get back to folks who requested it.</p>
